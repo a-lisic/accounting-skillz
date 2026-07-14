@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Close Accelerator — Exception Dashboard · June 2026</title>
+<style>
+  :root{--bg:#0f1320;--card:#181d2e;--card2:#1e2438;--ink:#eef1f7;--sub:#9aa4bd;
+    --line:#2a3350;--high:#ff6b6b;--med:#f4b740;--good:#4ec98f;--accent:#7c9cff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;padding:30px 18px 70px}
+  .wrap{max-width:960px;margin:0 auto}
+  h1{font-size:24px;margin:0 0 4px}
+  .meta{color:var(--sub);font-size:14px;margin:0 0 4px}
+  .stamp{display:inline-block;background:rgba(255,107,107,.12);color:var(--high);
+    border:1px solid rgba(255,107,107,.4);padding:4px 11px;border-radius:20px;font-size:12px;font-weight:600;margin-top:8px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .kpi .n{font-size:30px;font-weight:800;line-height:1}
+  .kpi .l{color:var(--sub);font-size:12.5px;margin-top:6px}
+  .kpi.big .n{color:var(--high)}
+  .section{margin:26px 0 0}
+  .section h2{font-size:15px;letter-spacing:.02em;text-transform:uppercase;color:var(--sub);margin:0 0 12px;font-weight:700}
+  .row{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px;
+    display:flex;gap:14px;align-items:flex-start}
+  .sev{flex:0 0 auto;font-size:11px;font-weight:800;padding:3px 9px;border-radius:6px;color:#0f1320;margin-top:2px}
+  .sev.high{background:var(--high)} .sev.med{background:var(--med)}
+  .rbody{flex:1;min-width:0}
+  .rtitle{font-weight:700;font-size:14.5px;margin:0 0 3px}
+  .rtitle .ent{color:var(--accent);font-weight:600}
+  .rdesc{color:var(--sub);font-size:13.5px;margin:0}
+  .amt{flex:0 0 auto;font-variant-numeric:tabular-nums;font-weight:700;font-size:15px;text-align:right;white-space:nowrap}
+  .benford{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .bars{display:flex;align-items:flex-end;gap:8px;height:120px;margin-top:12px}
+  .bcol{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end}
+  .bwrap{width:100%;height:100%;display:flex;align-items:flex-end;justify-content:center;position:relative}
+  .bar{width:60%;background:var(--accent);border-radius:3px 3px 0 0}
+  .bar.hot{background:var(--high)}
+  .exp{position:absolute;bottom:0;width:60%;border-top:2px dashed var(--med);left:20%}
+  .blab{font-size:11px;color:var(--sub)}
+  .foot{color:#6b7280;font-size:12px;margin-top:26px;text-align:center}
+  .legend{font-size:12px;color:var(--sub);margin-top:8px}
+  .legend b{color:var(--med)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Close Accelerator — Exception Dashboard</h1>
+  <p class="meta">Period <b>June 2026</b> · 9 entities · 220 journal entries · 48 reconciliations · generated in ~2 seconds</p>
+  <div class="stamp">⚠ Automated draft — every item requires preparer sign-off before close</div>
+
+  <div class="kpis">
+    <div class="kpi big"><div class="n">10</div><div class="l">Total exceptions</div></div>
+    <div class="kpi"><div class="n">9</div><div class="l">High severity</div></div>
+    <div class="kpi"><div class="n">$312K</div><div class="l">Intercompany out of balance</div></div>
+    <div class="kpi"><div class="n">$486K</div><div class="l">Flagged JE exposure</div></div>
+  </div>
+
+  <div class="section">
+    <h2>Journal-entry &amp; fraud-risk flags</h2>
+    <div class="row"><span class="sev high">HIGH</span><div class="rbody">
+      <p class="rtitle">Possible duplicate payment · <span class="ent">Riverside Dialysis LLC</span></p>
+      <p class="rdesc">Two identical $48,750 charges to McKesson Medical (INV-88421) posted 6/11 and 6/13 by j.torres.</p>
+    </div><div class="amt">$48,750</div></div>
+    <div class="row"><span class="sev high">HIGH</span><div class="rbody">
+      <p class="rtitle">Round-dollar top-side accrual · <span class="ent">ARC Corporate</span></p>
+      <p class="rdesc">$250,000 manual accrual, no vendor, posted 2:47am on Sunday 6/28 by d.oconnell — classic override profile.</p>
+    </div><div class="amt">$250,000</div></div>
+    <div class="row"><span class="sev high">HIGH</span><div class="rbody">
+      <p class="rtitle">Weekend manual entry · <span class="ent">Summit Kidney Center LLC</span></p>
+      <p class="rdesc">$90,000 physician bonus accrual, round-dollar, posted 11:31pm Sunday 6/14 with no support.</p>
+    </div><div class="amt">$90,000</div></div>
+  </div>
+
+  <div class="section">
+    <h2>Reconciliation &amp; flux</h2>
+    <div class="row"><span class="sev high">HIGH</span><div class="rbody">
+      <p class="rtitle">Aged unreconciled AR · <span class="ent">Prairie Dialysis Partners LLC</span></p>
+      <p class="rdesc">Patient A/R rec ties only via a $188,900 reconciling item aged &gt;90 days. GL $1.24M vs subledger $1.05M.</p>
+    </div><div class="amt">$188,900</div></div>
+    <div class="row"><span class="sev high">HIGH</span><div class="rbody">
+      <p class="rtitle">Material flux · <span class="ent">Gulf Coast Renal LLC</span></p>
+      <p class="rdesc">Medical Supplies Expense up 58% month-over-month (+$245K) with no commentary — obtain explanation.</p>
+    </div><div class="amt">+58%</div></div>
+    <div class="row"><span class="sev high">HIGH</span><div class="rbody">
+      <p class="rtitle">Intercompany out of balance · <span class="ent">Consolidation</span></p>
+      <p class="rdesc">Due From Affiliates ($2.22M) ≠ Due To Affiliates ($2.53M). $312,400 will not eliminate — fix before consolidating.</p>
+    </div><div class="amt">$312,400</div></div>
+  </div>
+
+  <div class="section">
+    <h2>Benford's Law screen</h2>
+    <div class="benford">
+      <p class="rdesc" style="margin-bottom:2px"><b style="color:var(--high)">Flag: vendor Grainger</b> — 10 of 14 invoices (71%) lead with digit 9, vs ~4.6% expected. Possible split or fabricated invoicing.</p>
+      <div class="bars" id="bars"></div>
+      <p class="legend">Blue = actual leading-digit share of all JE amounts · <b>amber dash</b> = Benford expected. Digit 9 spikes well above expectation.</p>
+    </div>
+  </div>
+
+  <p class="foot">Produced by the Close Accelerator skill · demo data with planted issues · nothing posted, nothing filed</p>
+</div>
+<script>
+  // actual vs Benford-expected leading-digit shares (from the run)
+  var data=[
+    {d:1,a:0.28,e:0.301},{d:2,a:0.16,e:0.176},{d:3,a:0.12,e:0.125},
+    {d:4,a:0.10,e:0.097},{d:5,a:0.08,e:0.079},{d:6,a:0.06,e:0.067},
+    {d:7,a:0.05,e:0.058},{d:8,a:0.04,e:0.051},{d:9,a:0.11,e:0.046}
+  ];
+  var max=0.32, bars=document.getElementById('bars');
+  data.forEach(function(x){
+    var col=document.createElement('div'); col.className='bcol';
+    var wrap=document.createElement('div'); wrap.className='bwrap';
+    var bar=document.createElement('div'); bar.className='bar'+(x.d===9?' hot':'');
+    bar.style.height=(x.a/max*100)+'%';
+    var exp=document.createElement('div'); exp.className='exp'; exp.style.height=(x.e/max*100)+'%';
+    wrap.appendChild(bar); wrap.appendChild(exp);
+    var lab=document.createElement('div'); lab.className='blab'; lab.textContent=x.d;
+    col.appendChild(wrap); col.appendChild(lab); bars.appendChild(col);
+  });
+</script>
+</body>
+</html>
