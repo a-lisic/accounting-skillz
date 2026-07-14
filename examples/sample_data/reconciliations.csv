@@ -1,0 +1,49 @@
+entity,account,account_name,gl_balance,subledger_balance,reconciling_items,aging,prepared_by
+Riverside Dialysis LLC,1200,Patient Accounts Receivable,1214975.08,1213261.34,1713.74,0-30 days,d.oconnell
+Riverside Dialysis LLC,2000,Accounts Payable,239070.09,236628.54,2441.55,0-30 days,m.nguyen
+Riverside Dialysis LLC,1400,Supplies Inventory,167265.89,166730.32,535.57,0-30 days,d.oconnell
+Riverside Dialysis LLC,1500,Prepaid Expenses,81615.15,80087.79,1527.36,0-30 days,s.patel
+Riverside Dialysis LLC,2100,Accrued Payroll,189902.46,188114.44,1788.02,0-30 days,j.torres
+Riverside Dialysis LLC,2200,Lease Liability (ASC 842),2106625.92,2103412.51,3213.41,0-30 days,m.nguyen
+Lakeshore Renal Care LLC,1200,Patient Accounts Receivable,1296255.68,1292522.68,3733.0,0-30 days,j.torres
+Lakeshore Renal Care LLC,2000,Accounts Payable,242309.34,238453.24,3856.1,0-30 days,j.torres
+Lakeshore Renal Care LLC,1400,Supplies Inventory,166861.99,166008.12,853.87,0-30 days,s.patel
+Lakeshore Renal Care LLC,1500,Prepaid Expenses,82742.8,79406.68,3336.12,0-30 days,s.patel
+Lakeshore Renal Care LLC,2100,Accrued Payroll,189623.09,186536.32,3086.77,0-30 days,m.nguyen
+Lakeshore Renal Care LLC,2200,Lease Liability (ASC 842),2102213.01,2098737.91,3475.1,0-30 days,m.nguyen
+Summit Kidney Center LLC,1200,Patient Accounts Receivable,1329677.79,1329561.1,116.69,0-30 days,s.patel
+Summit Kidney Center LLC,2000,Accounts Payable,257437.83,256374.14,1063.69,0-30 days,j.torres
+Summit Kidney Center LLC,1400,Supplies Inventory,164893.52,160931.34,3962.18,0-30 days,s.patel
+Summit Kidney Center LLC,1500,Prepaid Expenses,82618.52,81662.42,956.1,0-30 days,s.patel
+Summit Kidney Center LLC,2100,Accrued Payroll,192169.4,189191.22,2978.18,0-30 days,d.oconnell
+Summit Kidney Center LLC,2200,Lease Liability (ASC 842),2178200.47,2174637.74,3562.73,0-30 days,s.patel
+Prairie Dialysis Partners LLC,1200,Patient Accounts Receivable,1240050.49,1051150.49,188900.0,>90 days,s.patel
+Prairie Dialysis Partners LLC,2000,Accounts Payable,263680.66,263525.36,155.3,0-30 days,m.nguyen
+Prairie Dialysis Partners LLC,1400,Supplies Inventory,169610.0,168046.83,1563.17,0-30 days,j.torres
+Prairie Dialysis Partners LLC,1500,Prepaid Expenses,82566.04,82182.55,383.49,0-30 days,d.oconnell
+Prairie Dialysis Partners LLC,2100,Accrued Payroll,193293.25,191278.22,2015.03,0-30 days,d.oconnell
+Prairie Dialysis Partners LLC,2200,Lease Liability (ASC 842),2176232.61,2174172.76,2059.85,0-30 days,d.oconnell
+Gulf Coast Renal LLC,1200,Patient Accounts Receivable,1375587.31,1371776.6,3810.71,0-30 days,m.nguyen
+Gulf Coast Renal LLC,2000,Accounts Payable,246089.28,242146.35,3942.93,0-30 days,d.oconnell
+Gulf Coast Renal LLC,1400,Supplies Inventory,180321.21,177321.13,3000.08,0-30 days,s.patel
+Gulf Coast Renal LLC,1500,Prepaid Expenses,83895.95,82260.95,1635.0,0-30 days,m.nguyen
+Gulf Coast Renal LLC,2100,Accrued Payroll,211967.06,210806.06,1161.0,0-30 days,j.torres
+Gulf Coast Renal LLC,2200,Lease Liability (ASC 842),2189845.13,2187425.46,2419.67,0-30 days,j.torres
+Cascade Dialysis LLC,1200,Patient Accounts Receivable,1335570.58,1333851.2,1719.38,0-30 days,s.patel
+Cascade Dialysis LLC,2000,Accounts Payable,265580.84,264634.54,946.3,0-30 days,m.nguyen
+Cascade Dialysis LLC,1400,Supplies Inventory,178329.63,175564.73,2764.9,0-30 days,s.patel
+Cascade Dialysis LLC,1500,Prepaid Expenses,88445.3,86449.73,1995.57,0-30 days,m.nguyen
+Cascade Dialysis LLC,2100,Accrued Payroll,210969.17,210272.81,696.36,0-30 days,d.oconnell
+Cascade Dialysis LLC,2200,Lease Liability (ASC 842),2194464.57,2191362.0,3102.57,0-30 days,s.patel
+Heartland Kidney Care LLC,1200,Patient Accounts Receivable,1374826.23,1374247.16,579.07,0-30 days,d.oconnell
+Heartland Kidney Care LLC,2000,Accounts Payable,248895.0,245160.37,3734.63,0-30 days,d.oconnell
+Heartland Kidney Care LLC,1400,Supplies Inventory,170675.99,168760.5,1915.49,0-30 days,j.torres
+Heartland Kidney Care LLC,1500,Prepaid Expenses,84046.15,83943.53,102.62,0-30 days,m.nguyen
+Heartland Kidney Care LLC,2100,Accrued Payroll,211320.72,208587.61,2733.11,0-30 days,m.nguyen
+Heartland Kidney Care LLC,2200,Lease Liability (ASC 842),2269434.13,2267326.66,2107.47,0-30 days,d.oconnell
+Bayou Renal Associates LLC,1200,Patient Accounts Receivable,1417772.34,1414704.01,3068.33,0-30 days,d.oconnell
+Bayou Renal Associates LLC,2000,Accounts Payable,255122.66,254262.39,860.27,0-30 days,d.oconnell
+Bayou Renal Associates LLC,1400,Supplies Inventory,188553.12,186483.39,2069.73,0-30 days,j.torres
+Bayou Renal Associates LLC,1500,Prepaid Expenses,88956.68,85803.54,3153.14,0-30 days,d.oconnell
+Bayou Renal Associates LLC,2100,Accrued Payroll,207542.0,206544.03,997.97,0-30 days,j.torres
+Bayou Renal Associates LLC,2200,Lease Liability (ASC 842),2382610.7,2379004.93,3605.77,0-30 days,s.patel
